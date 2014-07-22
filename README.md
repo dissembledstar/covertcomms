@@ -1,10 +1,18 @@
 covertcomms
 ===========
 
-Client code to send system information to a remote server
+Runs a Flask server to parse and store received information sent by clients
+```
+ cd server
+ pip install -r requirements.txt
+./server.py
+```
 
-Server code to parse and store system information
-
-Toy examples, real-world is more complex
+Runs a Python client on a Linux machine to capture host information and send to the server
+```
+ cd client
+ ./configure && make 
+ XXX use freeze
+```
 
 **Please use ethically.**
